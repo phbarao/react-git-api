@@ -15,7 +15,7 @@ interface Repository {
   };
 }
 
-// Usando const é mais fácil tipar o componente
+// Usando const é mais fácil 'tipar' o componente
 const Dashboard: React.FC = () => {
   const [newRepo, setNewRepo] = useState('');
   const [inputError, setInputError] = useState('');
